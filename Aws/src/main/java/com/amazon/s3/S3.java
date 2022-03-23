@@ -15,8 +15,8 @@ public class S3 {
 
     public static void main(String[] args) {
 
-        String acessKey = "AKIA3H2YJ7JWS5DXMMH2";
-        String secretKey = "L5UGUh7jDn50ua0TvQLQ46mtADdCX7+/nHM63R/G";
+        String acessKey = "yourAcessKey";
+        String secretKey = "yourSecretKey";
 
         BasicAWSCredentials awsCredentials = new BasicAWSCredentials(acessKey, secretKey);
 
